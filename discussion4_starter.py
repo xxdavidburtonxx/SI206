@@ -57,11 +57,11 @@ class Rectangle():
 
     # # YOUR CODE HERE
 
-    # def perimeter(self):
-    #     if self.verify_input() == False:
-    #         return "Invaluid input"
-    #     else:
-    #         return 2*(int(self.width) + int(self.height))
+    def perimeter(self):
+        if self.verify_input() == False:
+            return "Invaluid input"
+        else:
+            return 2*(int(self.width) + int(self.height))
 
 def main():
     r = Rectangle(10, 10)
